@@ -17596,6 +17596,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 84227449}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &720408662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 117022, guid: edacd33104df0ed4594ada3cb00e1b81,
+    type: 3}
+  m_PrefabInstance: {fileID: 739672102}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &735294193
 GameObject:
   m_ObjectHideFlags: 0
@@ -36167,6 +36173,70 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 739672102}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1610755724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720408662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fc24513c89140afa90465a45f5d6fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KnockbackForce: {x: 0, y: 15}
+  DamageCausedKnockbackType: 1
+  DamagePerStomp: 0
+  ResetNumberOfJumpsOnStomp: 0
+  InvincibilityDuration: 0.5
+  PlayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  NumberOfRays: 5
+  RaycastLength: 0.5
+  RaycastVerticalOffset: 0.01
+  StomperMustBeAlive: 1
+--- !u!114 &1610755725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720408662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9716d97790a0a49889284ee813194576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentHealth: 0
+  TemporarilyInvulnerable: 0
+  PostDamageInvulnerable: 0
+  InitialHealth: 10
+  MaximumHealth: 10
+  Invulnerable: 0
+  ImmuneToDamage: 0
+  DamageFeedbacks: {fileID: 0}
+  FeedbackIsProportionalToDamage: 0
+  FlickerSpriteOnHit: 1
+  FlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
+  ImmuneToKnockback: 0
+  ImmuneToKnockbackIfZeroDamage: 0
+  DeathFeedbacks: {fileID: 0}
+  DestroyOnDeath: 1
+  DelayBeforeDestruction: 0
+  CollisionsOffOnDeath: 1
+  GravityOffOnDeath: 0
+  PointsWhenDestroyed: 0
+  RespawnAtInitialLocation: 0
+  ApplyDeathForce: 1
+  DeathForce: {x: 0, y: 10}
+  ResetForcesOnDeath: 0
+  ResetColorOnRevive: 1
+  ColorMaterialPropertyName: _Color
+  UseMaterialPropertyBlocks: 0
+  MasterHealth: {fileID: 0}
+  TargetDamageResistanceProcessor: {fileID: 0}
 --- !u!1001 &1613435152
 PrefabInstance:
   m_ObjectHideFlags: 0

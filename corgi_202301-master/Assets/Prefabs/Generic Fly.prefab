@@ -661,7 +661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Label: 
   ComparisonMode: 4
-  Distance: 7
+  Distance: 0
 --- !u!114 &5420272218135728044
 MonoBehaviour:
   m_ObjectHideFlags: 0

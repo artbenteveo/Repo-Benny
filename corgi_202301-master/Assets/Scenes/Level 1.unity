@@ -748,8 +748,8 @@ MonoBehaviour:
   ResetPointsOnRestart: 1
   BoundsMode: 1
   LevelBounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 200, y: 20, z: 5}
+    m_Center: {x: 87.3, y: 0, z: 0}
+    m_Extent: {x: 118.9, y: 20, z: 5}
   ConvertToColliderBoundsButton: 0
   LoadingSceneMode: 1
   LoadingSceneName: LoadingScreen
@@ -2670,7 +2670,7 @@ PrefabInstance:
     - target: {fileID: 4797244589739900723, guid: 53f244f03f7d4eb4cb5fc29b2488f06e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4797244589739900723, guid: 53f244f03f7d4eb4cb5fc29b2488f06e,
         type: 3}
@@ -2777,6 +2777,14 @@ PrefabInstance:
     - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: CurrentLives
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: MaximumLives
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
       propertyPath: GameOverScene
@@ -3451,7 +3459,7 @@ PrefabInstance:
     - target: {fileID: 803609433747821319, guid: a9d1408e3de650146b1df4eee05273bb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 803609433747821319, guid: a9d1408e3de650146b1df4eee05273bb,
         type: 3}

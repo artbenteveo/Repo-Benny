@@ -5,8 +5,8 @@
 ### Participantes: 
 
 * William Alejandro Pabón - ID: 225366
-* Juan Daniel Maya - ID: ******
-* Juan Miguel Bentancur - ID: ******
+* Juan Daniel Maya - ID: 447525
+* Juan Miguel Bentancur - ID: 449518
 
 ## Enunciado
 

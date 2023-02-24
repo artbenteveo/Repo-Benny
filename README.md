@@ -1,6 +1,6 @@
 # Repo-QUIENFUEELBOLUDOgame
  
-## Equipo: *PAKA*
+## Equipo: *PACCA*
 
 ### Participantes: 
 

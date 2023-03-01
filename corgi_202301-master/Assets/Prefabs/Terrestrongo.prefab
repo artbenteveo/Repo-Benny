@@ -496,7 +496,7 @@ MonoBehaviour:
   KnockbackForce: {x: 0, y: 20}
   DamageCausedKnockbackType: 1
   DamagePerStomp: 10
-  ResetNumberOfJumpsOnStomp: 0
+  ResetNumberOfJumpsOnStomp: 1
   InvincibilityDuration: 0.5
   PlayerMask:
     serializedVersion: 2

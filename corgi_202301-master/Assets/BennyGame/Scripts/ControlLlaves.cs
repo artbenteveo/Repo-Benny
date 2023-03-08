@@ -23,4 +23,9 @@ public class ControlLlaves : MonoBehaviour
     {
         txt_contador_llaves.text = "" + contador_llaves;
     }
+
+    public int ContadorLlaves()
+    {
+        return contador_llaves;
+    }
 }

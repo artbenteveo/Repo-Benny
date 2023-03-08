@@ -22,4 +22,5 @@ public class Llave : PickableItem
 
         control_llaves.ActualizarPuntaje(valor_llave);
     }
+
 }

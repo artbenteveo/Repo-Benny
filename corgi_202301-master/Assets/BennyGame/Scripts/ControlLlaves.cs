@@ -9,7 +9,7 @@ public class ControlLlaves : MonoBehaviour
     [SerializeField]
     //H
     private TMP_Text txt_contador_llaves;
-    private int contador_llaves;
+    public int contador_llaves;
 
 
     public void ActualizarPuntaje(int valor)

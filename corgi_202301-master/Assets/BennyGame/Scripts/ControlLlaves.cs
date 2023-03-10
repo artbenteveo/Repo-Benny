@@ -10,22 +10,22 @@ public class ControlLlaves : MonoBehaviour
     //H
     private TMP_Text txt_contador_llaves;
     public int contador_llaves;
-
-
-    public void ActualizarPuntaje(int valor)
-    {
+    
+    public void ActualizarPuntaje(int valor){
         contador_llaves += valor;
         ActualizarValorUI();
     }
 
-    // Update is called once per frame
-    protected void ActualizarValorUI()
-    {
+    protected void ActualizarValorUI(){
         txt_contador_llaves.text = "" + contador_llaves;
     }
 
-    public int ContadorLlaves()
-    {
+    public int ContadorLlaves(){
         return contador_llaves;
+    }
+
+    public void ResetearPuntaje(){
+        contador_llaves = 0;
+        ActualizarValorUI();
     }
 }

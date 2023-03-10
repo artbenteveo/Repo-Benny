@@ -56,15 +56,17 @@ namespace MoreMountains.CorgiEngine
 
 		public virtual void OnMMEvent(PickableItemEvent pickableItemEvent)
 		{
+			Debug.Log("Recogío algo");
+		
 			if (pickableItemEvent.PickedItem != null)
 			{
 				if (pickableItemEvent.PickedItem.GetComponent<Coin>() != null)
 				{
-					MMAchievementManager.AddProgress ("MoneyMoneyMoney", 1);
+					//MMAchievementManager.AddProgress ("MoneyMoneyMoney", 1);
 				}
 				if (pickableItemEvent.PickedItem.GetComponent<Stimpack>() != null)
 				{
-					MMAchievementManager.UnlockAchievement ("Medic");
+					//MMAchievementManager.UnlockAchievement ("Medic");
 				}
 			}
 		}

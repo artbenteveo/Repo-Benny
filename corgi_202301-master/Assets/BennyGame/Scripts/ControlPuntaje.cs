@@ -21,9 +21,7 @@ public class ControlPuntaje : MonoBehaviour
         _controlLlaves.ActualizarPuntaje(valor_llave);
     }
 
-    public void ResetearPuntaje(){
-    _controlLlaves.ResetearPuntaje();    
-    }
+
 
     private void Awake()
     {

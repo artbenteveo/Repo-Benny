@@ -1712,7 +1712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22449008, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28
+      value: -27.999939
       objectReference: {fileID: 0}
     - target: {fileID: 22460478, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3234,6 +3234,11 @@ PrefabInstance:
     - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
       propertyPath: GameOverScene
       value: Game_Over
+      objectReference: {fileID: 0}
+    - target: {fileID: 114992019002501916, guid: 6059d977d1f210348bfbe1a82f4f9883,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}

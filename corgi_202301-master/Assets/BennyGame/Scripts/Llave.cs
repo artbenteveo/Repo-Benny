@@ -20,7 +20,7 @@ public class Llave : PickableItem
     protected override void Pick(GameObject picker)
     {
         //control_llaves.ActualizarPuntaje(valor_llave);
-        ControlPuntaje.Instance.ActualizarPuntaje(valor_llave);
+        control_llaves.ActualizarPuntaje(valor_llave);
     }
 
 }

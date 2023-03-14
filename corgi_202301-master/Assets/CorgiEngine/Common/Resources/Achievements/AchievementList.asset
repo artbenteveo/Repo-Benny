@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13,60 +14,96 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AchievementsListID: AchievementsList
   Achievements:
-  - AchievementID: PrincessInAnotherCastle
+  - AchievementID: "Morseaste ch\xE9"
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Your Princess is in Another Castle
-    Description: Reach the end of a level
+    Title: "Morseaste ch\xE9"
+    Description: Mata a Morseo Colmillini
     Points: 200
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300004, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0
-  - AchievementID: JumpAround
+  - AchievementID: "Pinguino Saltar\xEDn"
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Jump Around
-    Description: Jump at least 10 times
+    Title: "Pinguino Saltar\xEDn"
+    Description: Salta 10 veces
     Points: 100
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
-  - AchievementID: MoneyMoneyMoney
+  - AchievementID: "Devaluaci\xF3n"
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Money Money Money
-    Description: Grab 3 coins
+    Title: "Devaluaci\xF3n"
+    Description: Agarra 3 centavos
     Points: 50
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300002, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 3
     ProgressCurrent: 0
-  - AchievementID: DeathIsOnlyTheBeginning
+  - AchievementID: "Desaparecido en Acci\xF3n"
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Death is only the Beginning
-    Description: Die for the first time
+    Title: "Desaparecido en Acci\xF3n"
+    Description: Muere por primera vez
     Points: 30
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300008, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0
-  - AchievementID: Medic
+  - AchievementID: "\xA1Aqu\xED est\xE1 Benny!"
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Medic !
-    Description: Grab a health bonus
+    Title: "\xA1Aqu\xED est\xE1 Benny!"
+    Description: Abre la puerta del boss
+    Points: 25
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300006, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: Esta no te la hace ni Messi
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Esta no te la hace ni Messi
+    Description: Mata a tres enemigos
+    Points: 25
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300006, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 3
+    ProgressCurrent: 0
+  - AchievementID: Descanso con Mate
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Descanso con Mate
+    Description: Pausa el juego
+    Points: 25
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300006, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: El Matador
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: El Matador
+    Description: Agarra una arma
     Points: 25
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300006, guid: fa6d364a5a0575245859952062aea14b, type: 3}

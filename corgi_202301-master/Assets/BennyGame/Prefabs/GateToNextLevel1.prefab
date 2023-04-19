@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 6100000}
   - component: {fileID: 11400000}
   m_Layer: 0
-  m_Name: GateToNextLevel
+  m_Name: GateToNextLevel1
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -200,7 +200,7 @@ MonoBehaviour:
   OnStay:
     m_PersistentCalls:
       m_Calls: []
-  LevelName: Level 2
+  LevelName: Level2
   DelayBeforeTransition: 0
   TriggerFade: 0
   FaderID: 0

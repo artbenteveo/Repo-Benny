@@ -1856,6 +1856,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenericBoss
       objectReference: {fileID: 0}
+    - target: {fileID: 3243116242101256435, guid: caae73a165bd47244b267d1c11620669,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3247044058976129789, guid: caae73a165bd47244b267d1c11620669,
         type: 3}
       propertyPath: MaximumHealth

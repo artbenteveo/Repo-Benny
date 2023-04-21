@@ -590,7 +590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4482122350624636, guid: eabcd8dae003143deb2597dbc08711dd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.1
+      value: -4.94
       objectReference: {fileID: 0}
     - target: {fileID: 4482122350624636, guid: eabcd8dae003143deb2597dbc08711dd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1809,11 +1809,7 @@ PrefabInstance:
     - target: {fileID: 882395712931299848, guid: 2b85c8944c406164eb98ba5a1ce666fd,
         type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD:corgi_202301-master/Assets/BennyGame/Scenes/Level 3.unity
-      value: 7.8
-=======
       value: -5.84
->>>>>>> fd96be0a22f0637321e75bd246b9b99a643d091e:corgi_202301-master/Assets/BennyGame/Scenes/Level3.unity
       objectReference: {fileID: 0}
     - target: {fileID: 882395712931299848, guid: 2b85c8944c406164eb98ba5a1ce666fd,
         type: 3}
@@ -3003,24 +2999,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 481514232158986952, guid: 79835ef05ac212246a0d48f8688f51f7,
         type: 3}
-<<<<<<< HEAD:corgi_202301-master/Assets/BennyGame/Scenes/Level 3.unity
-      propertyPath: PathElements.Array.data[0].PathElementPosition.x
-      value: 6.239498
-      objectReference: {fileID: 0}
-    - target: {fileID: 481514232158986952, guid: 79835ef05ac212246a0d48f8688f51f7,
-        type: 3}
-      propertyPath: PathElements.Array.data[0].PathElementPosition.y
-      value: -0.0048646927
-      objectReference: {fileID: 0}
-    - target: {fileID: 481514232158986952, guid: 79835ef05ac212246a0d48f8688f51f7,
-        type: 3}
-      propertyPath: PathElements.Array.data[0].PathElementPosition.z
-      value: -0.00055885315
-      objectReference: {fileID: 0}
-    - target: {fileID: 481514232158986952, guid: 79835ef05ac212246a0d48f8688f51f7,
-        type: 3}
-=======
->>>>>>> fd96be0a22f0637321e75bd246b9b99a643d091e:corgi_202301-master/Assets/BennyGame/Scenes/Level3.unity
       propertyPath: PathElements.Array.data[1].PathElementPosition.x
       value: -2.295084
       objectReference: {fileID: 0}
@@ -3496,7 +3474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4482122350624636, guid: eabcd8dae003143deb2597dbc08711dd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.1
+      value: -4.94
       objectReference: {fileID: 0}
     - target: {fileID: 4482122350624636, guid: eabcd8dae003143deb2597dbc08711dd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37625,7 +37603,7 @@ Tilemap:
       - {fileID: 21300002, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
       - {fileID: 21300010, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
       - {fileID: 21300012, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 60, y: -21, z: 0}
@@ -38201,7 +38179,7 @@ Tilemap:
       - {fileID: 21300002, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
       - {fileID: 21300010, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
       - {fileID: 21300012, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 36, y: -20, z: 0}
@@ -39000,7 +38978,7 @@ Tilemap:
       - {fileID: 21300006, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
       - {fileID: 21300008, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
       - {fileID: 21300006, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 34, y: -19, z: 0}
@@ -39150,7 +39128,7 @@ Tilemap:
       - {fileID: 21300006, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
       - {fileID: 21300008, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
       - {fileID: 21300006, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 49, y: -19, z: 0}
@@ -39260,7 +39238,7 @@ Tilemap:
       - {fileID: 21300006, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
       - {fileID: 21300008, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
       - {fileID: 21300006, guid: 53835a543eadc4ff8b2955079199b882, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 60, y: -19, z: 0}
@@ -40088,11 +40066,7 @@ PrefabInstance:
     - target: {fileID: 882395712931299848, guid: 2b85c8944c406164eb98ba5a1ce666fd,
         type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD:corgi_202301-master/Assets/BennyGame/Scenes/Level 3.unity
-      value: 48.8
-=======
       value: -3.11
->>>>>>> fd96be0a22f0637321e75bd246b9b99a643d091e:corgi_202301-master/Assets/BennyGame/Scenes/Level3.unity
       objectReference: {fileID: 0}
     - target: {fileID: 882395712931299848, guid: 2b85c8944c406164eb98ba5a1ce666fd,
         type: 3}
@@ -41095,20 +41069,12 @@ PrefabInstance:
     - target: {fileID: 6333202436836718197, guid: 646548bda66f43d4ea01db4b31f662ea,
         type: 3}
       propertyPath: m_LocalPosition.x
-<<<<<<< HEAD:corgi_202301-master/Assets/BennyGame/Scenes/Level 3.unity
-      value: 1.09
-=======
       value: -8.03
->>>>>>> fd96be0a22f0637321e75bd246b9b99a643d091e:corgi_202301-master/Assets/BennyGame/Scenes/Level3.unity
       objectReference: {fileID: 0}
     - target: {fileID: 6333202436836718197, guid: 646548bda66f43d4ea01db4b31f662ea,
         type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD:corgi_202301-master/Assets/BennyGame/Scenes/Level 3.unity
-      value: -13.87
-=======
       value: -29.29
->>>>>>> fd96be0a22f0637321e75bd246b9b99a643d091e:corgi_202301-master/Assets/BennyGame/Scenes/Level3.unity
       objectReference: {fileID: 0}
     - target: {fileID: 6333202436836718197, guid: 646548bda66f43d4ea01db4b31f662ea,
         type: 3}
@@ -41204,11 +41170,7 @@ PrefabInstance:
     - target: {fileID: 8010643041818509278, guid: 72628db6411397740b154fd1efa6da0f,
         type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD:corgi_202301-master/Assets/BennyGame/Scenes/Level 3.unity
-      value: 5.9
-=======
       value: -3.5
->>>>>>> fd96be0a22f0637321e75bd246b9b99a643d091e:corgi_202301-master/Assets/BennyGame/Scenes/Level3.unity
       objectReference: {fileID: 0}
     - target: {fileID: 8010643041818509278, guid: 72628db6411397740b154fd1efa6da0f,
         type: 3}
@@ -41250,39 +41212,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:corgi_202301-master/Assets/BennyGame/Scenes/Level 3.unity
-    - target: {fileID: 8010643041818509279, guid: 72628db6411397740b154fd1efa6da0f,
-        type: 3}
-      propertyPath: PathElements.Array.data[0].PathElementPosition.x
-      value: -0.0000009536743
-      objectReference: {fileID: 0}
-    - target: {fileID: 8010643041818509279, guid: 72628db6411397740b154fd1efa6da0f,
-        type: 3}
-      propertyPath: PathElements.Array.data[0].PathElementPosition.y
-      value: 0.08333969
-      objectReference: {fileID: 0}
-    - target: {fileID: 8010643041818509279, guid: 72628db6411397740b154fd1efa6da0f,
-        type: 3}
-      propertyPath: PathElements.Array.data[0].PathElementPosition.z
-      value: 0.0033473969
-      objectReference: {fileID: 0}
-    - target: {fileID: 8010643041818509279, guid: 72628db6411397740b154fd1efa6da0f,
-        type: 3}
-      propertyPath: PathElements.Array.data[1].PathElementPosition.x
-      value: 9.390153
-      objectReference: {fileID: 0}
-    - target: {fileID: 8010643041818509279, guid: 72628db6411397740b154fd1efa6da0f,
-        type: 3}
-      propertyPath: PathElements.Array.data[1].PathElementPosition.y
-      value: -0.16130304
-      objectReference: {fileID: 0}
-    - target: {fileID: 8010643041818509279, guid: 72628db6411397740b154fd1efa6da0f,
-        type: 3}
-      propertyPath: PathElements.Array.data[1].PathElementPosition.z
-      value: 0.0033473969
-      objectReference: {fileID: 0}
-=======
->>>>>>> fd96be0a22f0637321e75bd246b9b99a643d091e:corgi_202301-master/Assets/BennyGame/Scenes/Level3.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72628db6411397740b154fd1efa6da0f, type: 3}
 --- !u!4 &1665310676 stripped
@@ -42752,11 +42681,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4482122350624636, guid: eabcd8dae003143deb2597dbc08711dd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.07
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 4482122350624636, guid: eabcd8dae003143deb2597dbc08711dd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.46
+      value: -14.56
       objectReference: {fileID: 0}
     - target: {fileID: 4482122350624636, guid: eabcd8dae003143deb2597dbc08711dd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -43591,23 +43520,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4797244589749840827, guid: 53f244f03f7d4eb4cb5fc29b2488f06e,
         type: 3}
-      propertyPath: PathElements.Array.data[0].PathElementPosition.x
-      value: -0.09171486
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797244589749840827, guid: 53f244f03f7d4eb4cb5fc29b2488f06e,
-        type: 3}
       propertyPath: PathElements.Array.data[0].PathElementPosition.y
-      value: -1.8077469
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797244589749840827, guid: 53f244f03f7d4eb4cb5fc29b2488f06e,
-        type: 3}
-      propertyPath: PathElements.Array.data[1].PathElementPosition.x
-      value: -0.09171295
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 4797244589749840827, guid: 53f244f03f7d4eb4cb5fc29b2488f06e,
         type: 3}
       propertyPath: PathElements.Array.data[1].PathElementPosition.y
-      value: 1.9735146
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53f244f03f7d4eb4cb5fc29b2488f06e, type: 3}

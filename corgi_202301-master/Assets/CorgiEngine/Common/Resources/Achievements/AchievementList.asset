@@ -110,3 +110,15 @@ MonoBehaviour:
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0
+  - AchievementID: Te va a llevar el diablo
+    AchievementType: 0
+    HiddenAchievement: 1
+    UnlockedStatus: 0
+    Title: Te va a llevar el diablo
+    Description: Te va a llevar el diablo
+    Points: 10000
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300006, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0

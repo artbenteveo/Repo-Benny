@@ -228,8 +228,14 @@ EditorBuildSettings:
     path: Assets/BennyGame/Scenes/Menu.unity
     guid: fdd048b7855dd014992e3fa3e919c15a
   - enabled: 1
-    path: Assets/BennyGame/Scenes/Level 1.unity
+    path: Assets/BennyGame/Scenes/Level1.unity
     guid: bceda6f7e617a6c4f8757f6f8f4b0ed0
+  - enabled: 1
+    path: Assets/BennyGame/Scenes/Level2.unity
+    guid: 24cd5a333d8fefa4894423a8c6c2b64f
+  - enabled: 1
+    path: Assets/BennyGame/Scenes/Level3.unity
+    guid: 294b4b70b9c43e14fae4e987018ee2fc
   - enabled: 1
     path: Assets/BennyGame/Scenes/Instrucciones.unity
     guid: 8461136eba1d1f349822a42ff7ab4619

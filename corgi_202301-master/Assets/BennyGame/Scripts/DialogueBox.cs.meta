@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 834aab037937cce469d78d28056f62cf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - TextPanel: {instanceID: 0}
+  - TextPanelArrowDown: {instanceID: 0}
+  - DialogueText: {instanceID: 0}
+  - ButtonA: {fileID: 152966, guid: bae616c9d19e7ff498a0f195fcea5bc1, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

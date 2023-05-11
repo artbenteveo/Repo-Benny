@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using MoreMountains.CorgiEngine;
+using MoreMountains.Tools;
+using UnityEngine.SceneManagement;
 
-public class ControlTiempo : MonoBehaviour
+
+public class ControlTiempo : MonoBehaviour, MMEventListener<MMGameEvent>
 {
     bool timerOn = false;
     private float timeDuration = 3f *60f;
@@ -45,18 +49,51 @@ public class ControlTiempo : MonoBehaviour
 
     void Update()
     {
+        //if(estado)
         if (timer > 0 ) {
             timer -= Time.deltaTime;
             UpdateTimerDisplay(timer);
         } else {
             flash();
         }
+        //Debug.Log(timer);
     }
 
     private void ResetTimer() {
         timer = timeDuration;
         timerOn = true;
     }
+
+    public void SetUIControls(ControlTiempoManager ctm){
+        firstMinute=ctm.T1; 
+        secondMinute = ctm.T2;
+        firstSecond = ctm.T3;
+        secondSecond = ctm.T4;
+        //Reanudar tiempo
+    }
+
+    void OnEnable()
+    {
+        this.MMEventStartListening<MMGameEvent>();
+    }
+    void OnDisable()
+    {
+        this.MMEventStopListening<MMGameEvent>();
+    }
+
+    public virtual void OnMMEvent(MMGameEvent e)
+    {
+       if(e.EventName=="TiempoEvent")
+       {
+        SetUIControls(ControlTiempoManager.Instance);
+       }
+
+       if(e.EventName=="LoadingTiempoEvent")
+       {
+        //Detener tiempo por estado
+       }
+    }
+
     private void UpdateTimerDisplay (float time)
     {
         float minutes = Mathf.FloorToInt(time / 60);
@@ -75,5 +112,6 @@ public class ControlTiempo : MonoBehaviour
             timer = 0;
             UpdateTimerDisplay(timer);
         }
+        SceneManager.LoadScene("Game_Over");
     }
 }

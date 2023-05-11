@@ -8,7 +8,7 @@ public class Game_Over : MonoBehaviour
 {
     public void Reiniciar()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Level1");
     }
 
     public void Menu_GameOver()

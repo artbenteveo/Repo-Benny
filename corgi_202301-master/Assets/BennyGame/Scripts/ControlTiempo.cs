@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 public class ControlTiempo : MonoBehaviour, MMEventListener<MMGameEvent>
 {
     bool timerOn = false;
-    private float timeDuration = 3f *60f;
+    private float timeDuration = 1f *5f;
     private float timer;
     [SerializeField]
     private TextMeshProUGUI firstMinute;
@@ -113,5 +113,6 @@ public class ControlTiempo : MonoBehaviour, MMEventListener<MMGameEvent>
             UpdateTimerDisplay(timer);
         }
         SceneManager.LoadScene("Game_Over");
+        Destroy(this);
     }
 }

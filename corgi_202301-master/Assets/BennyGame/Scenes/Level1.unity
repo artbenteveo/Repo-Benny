@@ -801,9 +801,19 @@ PrefabInstance:
       propertyPath: ui_puntaje
       value: 
       objectReference: {fileID: 1462428385}
+    - target: {fileID: 6318594691888846870, guid: 212a6cfe2c78d8442a43b11ff8e76e0a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.402
+      objectReference: {fileID: 0}
+    - target: {fileID: 6318594691888846870, guid: 212a6cfe2c78d8442a43b11ff8e76e0a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.629
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 1390051533227324200, guid: 212a6cfe2c78d8442a43b11ff8e76e0a, type: 3}
-    - {fileID: 1390051533226573864, guid: 212a6cfe2c78d8442a43b11ff8e76e0a, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
     - {fileID: 1529644454719014380, guid: 212a6cfe2c78d8442a43b11ff8e76e0a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 212a6cfe2c78d8442a43b11ff8e76e0a, type: 3}
 --- !u!4 &541134525 stripped
@@ -2523,7 +2533,7 @@ PrefabInstance:
     - target: {fileID: 6952987507851357055, guid: 51b5221d8c6055c4baa56c8c573c9613,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28.000122
+      value: -28.000107
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51b5221d8c6055c4baa56c8c573c9613, type: 3}
@@ -5442,6 +5452,11 @@ PrefabInstance:
     - target: {fileID: 1359936357278833506, guid: 212a6cfe2c78d8442a43b11ff8e76e0a,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359936357278833506, guid: 212a6cfe2c78d8442a43b11ff8e76e0a,
+        type: 3}
+      propertyPath: DisableOnKill
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1390051533221763816, guid: 212a6cfe2c78d8442a43b11ff8e76e0a,
@@ -5509,6 +5524,21 @@ PrefabInstance:
       propertyPath: ui_puntaje
       value: 
       objectReference: {fileID: 1462428385}
+    - target: {fileID: 1529644454719014380, guid: 212a6cfe2c78d8442a43b11ff8e76e0a,
+        type: 3}
+      propertyPath: DisableColliderOnPick
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529644454719014380, guid: 212a6cfe2c78d8442a43b11ff8e76e0a,
+        type: 3}
+      propertyPath: DisableRendererOnPick
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6318594691888846870, guid: 212a6cfe2c78d8442a43b11ff8e76e0a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 212a6cfe2c78d8442a43b11ff8e76e0a, type: 3}
 --- !u!4 &6318594693483774684 stripped

@@ -10,7 +10,8 @@ using UnityEngine.SceneManagement;
 public class ControlTiempo : MonoBehaviour, MMEventListener<MMGameEvent>
 {
     bool timerOn = false;
-    private float timeDuration = 3f *60f;
+
+    [SerializeField] private float timeDuration = 3f *60f;
     private float timer;
     [SerializeField]
     private TextMeshProUGUI firstMinute;
@@ -22,7 +23,8 @@ public class ControlTiempo : MonoBehaviour, MMEventListener<MMGameEvent>
     private TextMeshProUGUI firstSecond;
     [SerializeField]
     private TextMeshProUGUI secondSecond;
-    [SerializeField]
+
+    
 
     public static ControlTiempo inst;
     // Start is called before the first frame update
@@ -113,5 +115,18 @@ public class ControlTiempo : MonoBehaviour, MMEventListener<MMGameEvent>
             UpdateTimerDisplay(timer);
         }
         SceneManager.LoadScene("Game_Over");
+    }
+
+    private void difficulty(int value)
+    {
+        switch (value)
+        {
+            case 1:
+            
+            break;
+        }
+        
+
+
     }
 }

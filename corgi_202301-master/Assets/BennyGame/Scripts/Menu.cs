@@ -12,6 +12,11 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Level1");
     }
 
+    public void Dificultad()
+    {
+        SceneManager.LoadScene("DifficultySelection");
+    }
+
     public void CargarInstrucciones()
     {
         SceneManager.LoadScene("Instrucciones");

@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 
 public class ControlTiempo : MonoBehaviour, MMEventListener<MMGameEvent>
 {
-    bool timerOn = false;
+    bool timerOn = true;
 
     [SerializeField] private float timeDuration = 3f *60f;
     private float timer;
@@ -40,7 +40,7 @@ public class ControlTiempo : MonoBehaviour, MMEventListener<MMGameEvent>
         }
         
     }
-    void Start()
+    private void StartTimer()
     {
         if (timerOn == false )
         {
@@ -51,19 +51,22 @@ public class ControlTiempo : MonoBehaviour, MMEventListener<MMGameEvent>
 
     void Update()
     {
-        //if(estado)
-        if (timer > 0 ) {
-            timer -= Time.deltaTime;
-            UpdateTimerDisplay(timer);
-        } else {
-            flash();
+        if(timerOn == false)
+        {
+                    //if(estado)
+            if (timer > 0 ) {
+                timer -= Time.deltaTime;
+                UpdateTimerDisplay(timer);
+            } else {
+                flash();
+            }
+        Debug.Log(timer);
         }
-        //Debug.Log(timer);
+
     }
 
     private void ResetTimer() {
         timer = timeDuration;
-        timerOn = true;
     }
 
     public void SetUIControls(ControlTiempoManager ctm){
@@ -98,6 +101,7 @@ public class ControlTiempo : MonoBehaviour, MMEventListener<MMGameEvent>
 
     private void UpdateTimerDisplay (float time)
     {
+        
         float minutes = Mathf.FloorToInt(time / 60);
         float seconds = Mathf.FloorToInt(time % 60);
 
@@ -117,15 +121,22 @@ public class ControlTiempo : MonoBehaviour, MMEventListener<MMGameEvent>
         SceneManager.LoadScene("Game_Over");
     }
 
-    private void difficulty(int value)
+    public void difficulty(int value)
     {
         switch (value)
         {
             case 1:
-            
+            Destroy(this);
+            break;
+            case 2:
+            timeDuration = 300;
+            break;
+            case 3:
+            timeDuration = 180;
             break;
         }
-        
+        timerOn = false;
+        StartTimer();
 
 
     }

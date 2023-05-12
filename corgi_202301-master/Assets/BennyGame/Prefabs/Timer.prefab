@@ -147,6 +147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8134206281278102408}
+  - component: {fileID: 135590292}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -178,6 +179,22 @@ RectTransform:
   m_AnchoredPosition: {x: 811.6, y: -482.45}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &135590292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8134206281278102409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b50a25e7020894599edf25906e99ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t1: {fileID: 8134206282521391046}
+  t2: {fileID: 8134206282850775157}
+  t3: {fileID: 8134206281029809251}
+  t4: {fileID: 8134206281427156307}
 --- !u!1 &8134206281427156309
 GameObject:
   m_ObjectHideFlags: 0

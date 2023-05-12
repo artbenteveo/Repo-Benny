@@ -18,6 +18,7 @@ public class Heroe : MonoBehaviour, MMEventListener<MMGameEvent>
             health = this.GetComponent<Health>();
             Debug.Log("Empezar inmortal");
             health.DamageDisabled();
+            health.ImmuneToKnockback = true;
             StartCoroutine(VolverMortal());
         }
     }
@@ -25,6 +26,7 @@ public class Heroe : MonoBehaviour, MMEventListener<MMGameEvent>
     IEnumerator VolverMortal(){
         yield return new WaitForSecondsRealtime(tiempo_inmunidad);
         health.DamageEnabled();
+        health.ImmuneToKnockback = false;
         Debug.Log("Otra vez mortal");
     }
         // Start is called before the first frame update
